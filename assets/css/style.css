@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-item{
+    color: #777777;
+}
+#navid{
+    width: 960px;
+}
+/*
+body{
+    background-image: url(../images/gravel.png);
+}
+*/
+#heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+
+#wrapper {
+    background-image: url(../images/gravel.png);
+    clear: both;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    border-top: 3px solid #cccc;
+    overflow: auto;
+}
+#content {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 960px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    color: #777777;
+    overflow: auto;
+}
+#separator{
+    width: 100%;
+    height: 3px;
+    background-color: #cccc;
+}
+#my-image {
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.jumbotron{
+    width: 960px;
+    background-color: white;
+}
+#input, #exampleFormControlTextarea1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#btn_submit
+{
+    background-color: #4aaaa5;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-body{
+    width: 265px;
+    height: 265px;
+    
+}
+#card1{
+    background-image: url(../images/thumb1.bmp);
+    
+}
+#card2{
+    background-image: url(../images/thumb2.bmp);
+    
+}
+#card3{
+    background-image: url(../images/thumb3.bmp);
+    
+}
+#card4{
+    background-image: url(../images/thumb4.bmp);
+    
+}
+#card5{
+    background-image: url(../images/thumb5.bmp);
+    
+}
+
+#footer {
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    font-size: 15px;
+    color: #dddddd;
+    padding-top: 15px;
+    border-top: 8px solid #4aaaa5;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
